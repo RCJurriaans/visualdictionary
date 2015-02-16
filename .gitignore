@@ -1,0 +1,10 @@
+*.log
+*.pot
+*.pyc
+settings.py
+env/*
+collectstatic
+*.swp
+*~
+db.sqlite3
+*.dump

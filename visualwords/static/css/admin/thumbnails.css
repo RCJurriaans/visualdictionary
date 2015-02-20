@@ -1,0 +1,15 @@
+.thumb {
+    height: 16px;
+    width: auto;
+    position: absolute;
+    z-index:1;
+    overflow-y: hidden;
+    -webkit-transition: height 0.1s; /* For Safari 3.1 to 6.0 */
+    transition: height 0.1s;
+}
+td:hover .thumb{
+    height: 256px;
+    z-index:2;
+    -webkit-transition: height 0.5s; /* For Safari 3.1 to 6.0 */
+    transition: height 0.5s;
+}
